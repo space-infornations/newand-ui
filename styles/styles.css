@@ -1,0 +1,122 @@
+/* Default Dark Theme Styles */
+body {
+    color: #ffffff; /* Default text color */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.css-custom-styles-name-navbar,
+.css-custom-styles-name-card,
+.css-custom-styles-name-footer,
+.css-custom-styles-name-bg-light {
+    background-color: #1f1f1f !important;
+    color: #ffffff !important;
+}
+
+.css-custom-styles-name-btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+a,
+a:hover {
+    color: #ffffff !important;
+}
+
+/* Ensure white text in blog section */
+.css-custom-styles-name-card-body,
+.css-custom-styles-name-lead,
+.css-custom-styles-name-card-text,
+.css-custom-styles-name-navbar-nav .css-custom-styles-name-nav-link {
+    color: #ffffff !important;
+}
+
+/* Blog container with black background */
+#blog {
+    background-color: #000000 !important; /* Black background for the blog container */
+}
+
+.css-custom-styles-name-card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.css-custom-styles-name-card-body {
+    padding: 1.5rem;
+}
+
+.css-custom-styles-name-hero {
+    padding: 4rem 0;
+}
+
+.css-custom-styles-name-btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;
+    border-radius: 10px;
+}
+
+/* Go to Top Button */
+#css-custom-styles-name-goTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#css-custom-styles-name-goTopBtn:hover {
+    background-color: #0056b3;
+}
+
+.css-custom-styles-name-hero {
+    background-color: black; /* Set the background to black */
+    padding: 20px 0; /* Add some padding around the header */
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .container {
+    /* You might have other styles for your container, keep those. */
+    /* Ensure the container doesn't restrict the centering */
+    width: 100%; /* Or a specific width if needed */
+  }
+  
+  .img-fluid {
+    display: block; /* Remove default inline-block behavior */
+    margin: 0 auto; /* Center the image horizontally */
+    max-height: 300px; /* Keep your max-height style */
+  }
+  
+  /* Optional: Adjust for mobile if needed */
+  @media (max-width: 768px) {
+    .css-custom-styles-name-hero {
+      padding: 15px 0; /* Adjust padding for smaller screens */
+    }
+  
+    .img-fluid {
+      max-height: 200px; /* Adjust max-height for smaller screens */
+    }
+  }
